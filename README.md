@@ -27,7 +27,7 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/9c6UFoC.png)
+![](https://i.imgur.com/zV7fBOb.png)
 > 將 Excel 檔案匯入到陣列
 
 ![](https://i.imgur.com/3uFTwL4.png)
