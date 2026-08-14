@@ -1,4 +1,4 @@
-# Laravel 11 輕量試算表
+# Laravel 12 輕量試算表
 
 引入 glhd 的 linen 套件來擴增輕量試算表，它是 OpenSpout 套件的一個簡易包裝器，具有一些數據標準化的便利性。
 
@@ -27,8 +27,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/zV7fBOb.png)
+![](https://i.imgur.com/cezrIbB.png)
 > 將 Excel 檔案匯入到陣列
 
-![](https://i.imgur.com/3uFTwL4.png)
+![](https://i.imgur.com/FqlSu40.png)
 > 將使用者模型資料匯出到 Excel 檔案

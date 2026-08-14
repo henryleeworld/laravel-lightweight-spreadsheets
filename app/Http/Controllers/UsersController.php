@@ -23,7 +23,7 @@ class UsersController extends Controller
         if (!File::isDirectory($directoryPath)) {
             File::makeDirectory($directoryPath);
         }
-        Linen::write(User::all(), $directoryPath . '/'. 'users.' . now()->timestamp . '.xlsx');
+        Linen::write(User::select('id AS ' . __('ID'), 'name AS ' . __('Name'), 'email AS ' . __('Email'), 'email_verified_at AS '  . __('Email verified at'), 'created_at AS '  . __('Created at'), 'updated_at As '  . __('Updated at'))->get(), $directoryPath . '/'. 'users.' . now()->timestamp . '.xlsx');
         echo __('Exported successfully.') . PHP_EOL;
     }
 }
